@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: front
-        image: sukjubae/front:4
+        image: sukjubae/front:5
         ports:
         - containerPort: 80
         env:
