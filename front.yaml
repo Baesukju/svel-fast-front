@@ -19,6 +19,6 @@ spec:
         image: sukjubae/front:6
         ports:
         - containerPort: 80
-        env:
-        - name: VITE_SERVER_URL
-          value: http://svc-back:8000
+        #env:
+        #- name: VITE_SERVER_URL
+        #  value: http://svc-back:8000
