@@ -21,4 +21,4 @@ spec:
         - containerPort: 80
         env:
         - name: VITE_SERVER_URL
-          value: http://back:8000
+          value: http://svc-back:8000
